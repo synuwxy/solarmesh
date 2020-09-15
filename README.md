@@ -38,7 +38,7 @@ systemctl stop firewalld.service
 新建一个文件夹做 ${workspace}
 
 ```bash
-sh -c "$(curl -fsSL https://github.com/synuwxy/solarmesh/blob/master/solarmesh.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/synuwxy/solarmesh/master/solarmesh.sh)"
 ```
 
 安装完成之后安装文件将安装在 ${workspace}/solarmesh 中
